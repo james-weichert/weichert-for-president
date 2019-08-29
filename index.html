@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>VOTE WEICHERT</title>
+
+
+	<link rel="icon" type="image/x-icon" href="favicon.ico" />
+
+	<style type="text/css">
+		body {
+			font-family: 'Futura', sans-serif;
+			color: #0B5170;
+			background-color: #E0703C;
+		}
+
+		#main {
+			
+			width: 80vw;
+			margin-left: auto;
+			margin-right: auto; 
+
+			margin-top: 30vh;
+		}
+		#title {
+			text-align: center;
+
+
+		}
+
+
+		h1 {
+			font-size: 4em;
+			line-height: 120%;
+		}
+
+		#weichert {
+			opacity: 0;
+
+			transition: opacity 1s ease;
+			-webkit-transition: opacity 1s ease;
+			-moz-transition: opacity 1s ease;
+		}
+		#sub {
+			color: white;
+			opacity: 0;
+
+			transition: opacity 1s ease;
+			-webkit-transition: opacity 1s ease;
+			-moz-transition: opacity 1s ease;
+		}
+		#james {
+			width: 20vw;
+			position: absolute;
+			left: 0;
+			bottom: 0;
+			margin-bottom: -12vh;
+
+		}
+		#james img {
+			width: 100%;
+		}
+
+		#intro {
+
+			width: 50%;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		p {
+			color: white;
+		}
+
+		#subsections {
+			width: 50%;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+		.spacer {
+			height: 5vh;
+		}
+
+		ul {
+			color: white;
+		}
+
+		.divider {
+			position: relative;
+			
+			margin-top: -2vh;
+		}
+
+		.divider div {
+			background-color: #0B5170;
+			height: 2vh;
+
+			margin-top: 1.5vh;
+			margin-bottom: 1.5vh;
+
+		}
+
+		.bl1 {
+			width: 20vw;
+		}
+		.bl2 {
+			width: 25vw;
+		}
+		.bl3 {
+			width: 15vw;
+		}
+
+		.sp {
+			width: 80%;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+		.sm-spacer {
+			height: 3vh;
+		}
+
+		@media (max-width: 600px) {
+			#main {
+				margin-top: 5vh;
+			}
+			#james {
+				width: 40vw;
+				position: static;
+				margin-bottom: 0;
+				margin-left: auto;
+				margin-right: auto;
+			}
+			#sub {
+				font-size: 3em;
+			}
+			#intro {
+				width: 70%;
+			}
+
+			.bl1 {
+				width: 30vw;
+			}
+			.bl2 {
+				width: 40vw;
+			}
+			.bl3 {
+				width: 20vw;
+			}
+
+			#subsections {
+				width: 80%;
+			}
+		}
+	</style>
+
+	<script type="text/javascript">
+		function load_page() {
+			fade_w();
+		}
+
+		function fade_w() {
+			window.setTimeout(function () {
+				document.getElementById('weichert').style.opacity = "1";
+				fade_s();
+			}, 500);
+
+
+		}
+
+		function fade_s() {
+			window.setTimeout(function () {
+				document.getElementById('sub').style.opacity = "1";
+			}, 1000);
+		}
+
+	</script>
+
+</head>
+<body onload="load_page()">
+
+	<div id="main">
+	<div id="title">
+		<h1 id="weichert">VOTE WEICHERT</h1>
+		<h1 id="sub">FOR PRESIDENT</h1>
+	</div>
+
+	<div id="james">
+		<img src="james.png">
+
+		<div class="divider">
+			<div class="bl1"></div>
+			<div class="bl2"></div>
+			<div class="bl3"></div>
+		</div>
+	</div>
+
+	
+
+	<div id="intro">
+		<h4>I'm running to be the President of the Foothill Residence Hall Association. I'm running for YOU!</h4>
+		<p>Hi, I'm James Weichert (he/him/his). I'm a freshman in the College of Letters and Science intending on majoring in Computer Science. I've lived in California, North Carolina, Georgia, and Virginia and speak English, German, Spanish, and a little bit of French. I live in Foothill Building 2B Suite 31 Room I and love being part of the Foothill and broader Cal communities. 
+
+		I'm ready to </p>
+	</div>
+
+	<div class="spacer"></div>
+
+	<div id="subsections">
+		<div class="issue">
+			<h2>EXPERIENCE</h2>
+			<div class="sp">
+				<p>Hey.</p>
+			</div>
+			
+		</div>
+		<div class="sm-spacer"></div>
+
+		<div class="issue">
+			<h2>FUN</h2>
+			<div class="sp">
+				<p>filled with social events, group activities, and of course, free food. Below are just some of the things I want to bring to students at Foothill:</p>
+
+				<ul>
+					<li>Movie Nights</li>
+					<li>Game Nights</li>
+					<li>Taco Tuesdays</li>
+					<li>Raffles, Prizes, and Giveaways</li>
+					<li>Arts & Crafts Events</li>
+					<li>Barbecues and Cookouts</li>
+					
+					<li>Regular snack breaks during midterms and finals seasons</li>
+				</ul>
+			</div>
+
+		</div>
+		<div class="sm-spacer"></div>
+
+		<div class="issue">
+			<h2>COMMUNITY</h2>
+			<div class="sp">
+				<p>I believe that as Cal students, we have the unique privilege and responsibility to engage with communities on every level - on campus, in Berkeley, in the U.S., and around the globe.</p>
+			</div>
+					
+		</div>
+		<div class="sm-spacer"></div>
+
+		<div class="issue">
+			<h2>CAREER OPPORTUNITIES</h2>
+			<div class="sp">
+				<p>Like every Berkeley student I know, I want . That's why</p>
+			</div>
+			
+		</div>
+		<div class="sm-spacer"></div>
+
+		<div class="issue">
+			<h2>HOUSING</h2>
+			<div class="sp">
+				<p>For the next nine months or so, Foothill is going to be our home, so I want to make this place as <em>homely</em> as possible. From working with our Residence Director to coordinating with the maintenance and cleaning staff, I'll make sure that  </p>
+			</div>
+		</div>
+	</div>
+
+	<div class="spacer"></div>
+
+	</div>
+
+	<div id="scroll"></div>
+</body>
+</html>
